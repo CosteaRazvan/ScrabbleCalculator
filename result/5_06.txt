@@ -1,6 +1,6 @@
-1K Q
-2K Q
-3K Q
-4K Q
-5K Q
+1K D
+2K E
+3K B
+4K A
+5K R
 10

@@ -1,6 +1,6 @@
-7N Q
-9N Q
-10N Q
-11N Q
-12N Q
+7N H
+9N H
+10N N
+11N P
+12N H
 10

@@ -1,5 +1,5 @@
-6I Q
-6J Q
-6K Q
-6M Q
+6I V
+6J F
+6K N
+6M A
 10

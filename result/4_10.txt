@@ -1,5 +1,5 @@
-9A Q
-10A Q
-11A Q
-12A Q
+9A A
+10A P
+11A P
+12A I
 10

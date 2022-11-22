@@ -1,4 +1,4 @@
-5K Q
-7K Q
-9K Q
+5K E
+7K E
+9K I
 10

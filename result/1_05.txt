@@ -1,4 +1,4 @@
-4K Q
-4M Q
-4N Q
+4K H
+4M O
+4N O
 10

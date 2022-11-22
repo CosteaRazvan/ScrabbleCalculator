@@ -1,4 +1,4 @@
-5O Q
-7O Q
-8O Q
+5O S
+7O I
+8O F
 10
