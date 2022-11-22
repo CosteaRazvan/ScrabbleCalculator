@@ -1,6 +1,7 @@
-3H
-3I
-3J
-3L
-3M
-3N
+3H Q
+3I Q
+3J Q
+3L Q
+3M Q
+3N Q
+10
