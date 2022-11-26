@@ -76,6 +76,7 @@ gt_path_root = "/home/razvan/Facultate/CAVA/ScrabbleCalculator/antrenare/"
 #change this to 1 if you want to print results at each turn
 verbose = 0
 total_points = 0
+fail = ''
 for game in range(1,6):
 	for turn in range(1,21):
 		
@@ -97,6 +98,8 @@ for game in range(1,6):
 			print("For image: ", game_turn, " encountered an error")
 
 		print("Image: ", game_turn, "Points position: ", points_position, "Points letters: ",points_letters, "Points score: ", points_score)
+		if points_letters == 0: fail += f'{game_turn}\n'
 		total_points = total_points + points_position + points_letters + points_score
 
 print(total_points)
+print(fail)
