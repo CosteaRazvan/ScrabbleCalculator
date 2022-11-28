@@ -98,7 +98,7 @@ for game in range(1,6):
 			print("For image: ", game_turn, " encountered an error")
 
 		print("Image: ", game_turn, "Points position: ", points_position, "Points letters: ",points_letters, "Points score: ", points_score)
-		if points_letters == 0: fail += f'{game_turn}\n'
+		if points_score == 0: fail += f'{game_turn}\n'
 		total_points = total_points + points_position + points_letters + points_score
 
 print(total_points)
