@@ -102,4 +102,4 @@ for game in range(1,6):
 		total_points = total_points + points_position + points_letters + points_score
 
 print(total_points)
-print(fail)
+#print(fail)
