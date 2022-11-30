@@ -67,7 +67,7 @@ def compare_annotations(filename_predicted,filename_gt,verbose=0):
 	return points_positions, points_letters,points_score
 
 #change this on your machine pointing to your results (txt files)
-predictions_path_root = "/home/razvan/Facultate/CAVA/ScrabbleCalculator/result/"
+predictions_path_root = "/home/razvan/Facultate/CAVA/ScrabbleCalculator/evaluare/fisiere_solutie/311_Costea_Razvan_George/"
 
 #change this on your machine to point to the ground-truth test
 gt_path_root = "/home/razvan/Facultate/CAVA/ScrabbleCalculator/antrenare/"
@@ -76,7 +76,7 @@ gt_path_root = "/home/razvan/Facultate/CAVA/ScrabbleCalculator/antrenare/"
 #change this to 1 if you want to print results at each turn
 verbose = 0
 total_points = 0
-fail = ''
+
 for game in range(1,6):
 	for turn in range(1,21):
 		
@@ -98,8 +98,7 @@ for game in range(1,6):
 			print("For image: ", game_turn, " encountered an error")
 
 		print("Image: ", game_turn, "Points position: ", points_position, "Points letters: ",points_letters, "Points score: ", points_score)
-		if points_score == 0: fail += f'{game_turn}\n'
+		
 		total_points = total_points + points_position + points_letters + points_score
 
 print(total_points)
-print(fail)
