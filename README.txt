@@ -16,12 +16,12 @@ Task 1:
 	Output: Only the positions are computed. The letter is 'A' for all input files.
 		The score is '10' for all input files.
 	Example: 
-		1_01.txt => 8H A
-		            8I A
-		            8J A
-		            8K A
-		            8L A
-		            10
+		1_01.txt => 8H K
+		            8I K
+		            8J K
+		            8K K
+		            8L K
+		            0
 
 Task 1 & Task 2: 
 	Run cell "5. Task 2"
@@ -34,7 +34,7 @@ Task 1 & Task 2:
 		            8J N
 		            8K C
 		            8L T
-		            10
+		            0
 		
 Task 1, Task 2 & Task 3 (The complete application):
 	Run cell "6. Task 1, Task 2 & Task 3"
@@ -57,4 +57,7 @@ If the ouput for task 1 was only the positions like this
 		            8K 
 		            8L 
 
-the the script does not work, so I can't get feedback for every individual task.		            	
+the the script does not work, so I can't get feedback for every individual task.
+
+
+For testing change path variable to point the test directory.		            	
