@@ -10,6 +10,7 @@ os
 
 For all tasks first run cells adnotated with "1. Imports", and "2. Main utility functions"
 For all task the output is stored in './results/'
+For testing change path variable to point the test directory.
 
 Task 1: 
 	Run cell "4. Task 1"
@@ -57,7 +58,4 @@ If the ouput for task 1 was only the positions like this
 		            8K 
 		            8L 
 
-the the script does not work, so I can't get feedback for every individual task.
-
-
-For testing change path variable to point the test directory.		            	
+the the script does not work, so I can't get feedback for every individual task.		            	
