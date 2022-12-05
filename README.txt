@@ -1,25 +1,60 @@
-Your project should include a README file containing the following information:
+0. The project was built in Python 3.10.6
 
-1. the libraries required to run the project including the full version of each library
+1. Libraries required to run the project including the full version of each library
 
-Example:
+numpy==1.23.3
+opencv_python==4.6.0
+os
 
-numpy==1.15.4
-opencv_python==4.1.1.26
-scikit_image==0.15.0
-tensorflow_gpu==1.12.0
-Pillow==7.0.0
-scikit_learn==0.22.1
-skimage==0.0
-tensorflow==2.1.0
+2. How to run each task and where to look for the output file.
 
-2. how to run each task and where to look for the output file.
-
-Example:
+For all tasks first run cells adnotated with "1. Imports", and "2. Main utility functions"
+For all task the output is stored in './results/'
 
 Task 1: 
-script: task_1.py
-function: run_task1(input_folder_name), where input_folder_name is the path to the folder containing the images for task1
-output: the output file is results/task1.txt
+	Run cell "4. Task 1"
+	Output: Only the positions are computed. The letter is 'A' for all input files.
+		The score is '10' for all input files.
+	Example: 
+		1_01.txt => 8H A
+		            8I A
+		            8J A
+		            8K A
+		            8L A
+		            10
 
-Task 2: ...
+Task 1 & Task 2: 
+	Run cell "5. Task 2"
+	Output: The positions and the letter for all positions are computed. 
+		The score is '10' for all input files.
+		
+	Example: 
+		1_01.txt => 8H P
+		            8I U
+		            8J N
+		            8K C
+		            8L T
+		            10
+		
+Task 1, Task 2 & Task 3 (The complete application):
+	Run cell "6. Task 1, Task 2 & Task 3"
+	Output: The positions, the letter for all positions and the score are computed.
+	
+	Example: 
+		1_01.txt => 8H P
+		            8I U
+		            8J N
+		            8K C
+		            8L T
+		            14
+
+I choose this output to get help from script 'evalueaza_solutie.py'.
+If the ouput for task 1 was only the positions like this
+
+		1_01.txt => 8H 
+		            8I 
+		            8J 
+		            8K 
+		            8L 
+
+the the script does not work, so I can't get feedback for every individual task.		            	

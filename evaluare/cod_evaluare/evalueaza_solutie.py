@@ -67,7 +67,7 @@ def compare_annotations(filename_predicted,filename_gt,verbose=0):
 	return points_positions, points_letters,points_score
 
 #change this on your machine pointing to your results (txt files)
-predictions_path_root = "/home/razvan/Facultate/CAVA/ScrabbleCalculator/evaluare/fisiere_solutie/311_Costea_Razvan_George/"
+predictions_path_root = "/home/razvan/Facultate/CAVA/ScrabbleCalculator/results/"
 
 #change this on your machine to point to the ground-truth test
 gt_path_root = "/home/razvan/Facultate/CAVA/ScrabbleCalculator/antrenare/"
