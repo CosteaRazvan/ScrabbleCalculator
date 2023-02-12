@@ -1,3 +1,5 @@
+Open documentation.pdf for more information!
+
 0. The project was built in Python 3.10.6
 
 1. Libraries required to run the project including the full version of each library
